@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Concert+One&family=Courgette&family=Dancing+Script&family=Lobster&family=Pacifico&family=Sacramento&family=Viga&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+height: 100vh;
+background-image: linear-gradient(to right top, #052137, #0d3d60, #135c8c, #167dba, #12a0eb);
+}
+
+.contenedor {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 75% 5%;
+    
+}
+/*
+ header {
+    background-color: aquamarine;
+ }
+ main {
+    background-color: darksalmon;
+    }
+    
+footer {
+    background-color: blueviolet;
+} */
+.eslogan { 
+    font-family: 'Courgette', cursive;
+    background-color: lightblue;
+    font-size:xx-large;
+    text-align: center;
+    padding: 30px;
+}
+    
+.header__nav__ul {
+    font-size:18PX;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    background-color: lightblue;
+    font-family: 'Courgette', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color:black;
+    text-align: center;
+    
+}
+
+.imagenConLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+@media screen and (max-width:768px) {
+    .imagenConLogo {
+    width: 55%;    
+    height: 55%;
+}
+}
+
+.parrafos {
+    font-style: normal;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    font-size: medium;
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .parrafos {
+        font-size:smaller;
+    }
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    h2 {
+        padding: 5%;
+    }
+}
+
+.formulario {
+    font-family: 'Courgette', cursive;
+    width: 45%;
+    height: 45%;
+    display: block;
+    margin-left: auto;
+    margin: auto;
+    font-size: x-large;
+    padding: 5%;
+}
+
+.consultaTamaño {
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.parrafoFooter {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.imagen2 {
+    width: 35%;
+    height: 45%;  
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:768px) {
+    .imagen2 {
+        width: 65%;
+        height: 75%;
+        padding: 2%;
+    }
+}
